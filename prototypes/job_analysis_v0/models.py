@@ -6,3 +6,11 @@ class JobAnalysis(BaseModel):
     key_requirements: list[str]
     fit_summary: str
     gaps: list[str]
+
+class ToolDecision(BaseModel):
+    needs_company_size: bool
+    needs_expereince_match: bool
+    reasoning: str
+
+
+

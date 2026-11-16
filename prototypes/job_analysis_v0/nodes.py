@@ -34,3 +34,35 @@ def analyze_job(
     return {
         "analysis": analysis
     }
+
+def decide_tools(state: JobAnalysisState):
+    analysis = state['analysis']
+
+    prompt = f"""
+    Decide whether additional tools are needed to analyze the job description based on the following analysis:
+
+    Current Analysis:
+    {analysis}
+
+    Available Tools:
+    1. check_company_size: Checks if the company size is appropriate for the role.
+    2. estimate_years_experience_match: Estimates if the candidate's years of experience match the job requirements.
+    """
+
+    decision = decision_llm.invoke(prompt)
+
+
+
+   return {
+            "needs_company_size": decision.needs_company_size,
+            "needs_expereince_match": decision.needs_expereince_match,
+            "iterations": state['iterations'] + 1,
+    }
+
+
+
+def run_tools(state: JobAnalysisState):
+    results = {}
+
+    if state['needs_company_size']:
+        results['company_size'] = check_company_size(state['job_text'])

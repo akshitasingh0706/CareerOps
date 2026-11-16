@@ -1,6 +1,13 @@
-.venv
+.venv/
 .env
+.env.*
+!.env.example
 __pycache__/
 *.pyc
 .DS_Store
-jds/
+.pytest_cache/
+.ruff_cache/
+data/
+*.db
+*.sqlite
+prototypes/job_analysis_v0/jds/
