@@ -1,0 +1,18 @@
+[
+ {"id": "a1b2c3d4-0001", "text": "Staff Software Engineer, Platform",
+  "categories": {"team": "Engineering", "location": "New York, NY", "commitment": "Full-time"},
+  "createdAt": 1760000000000, "hostedUrl": "https://jobs.lever.co/beta/a1b2c3d4-0001",
+  "applyUrl": "https://jobs.lever.co/beta/a1b2c3d4-0001/apply",
+  "workplaceType": "hybrid",
+  "description": "<div>Own our core platform services.</div>",
+  "descriptionPlain": "Own our core platform services.",
+  "lists": [{"text": "What you will do", "content": "<li>Design APIs</li><li>Mentor engineers</li>"}],
+  "additionalPlain": "Beta is an equal opportunity employer.",
+  "salaryRange": {"currency": "USD", "interval": "per-year-salary", "min": 200000, "max": 250000}},
+ {"id": "a1b2c3d4-0002", "text": "Product Designer",
+  "categories": {"team": "Design", "location": "Remote", "commitment": "Full-time"},
+  "createdAt": 1760100000000, "hostedUrl": "https://jobs.lever.co/beta/a1b2c3d4-0002",
+  "workplaceType": "remote",
+  "description": "<div>Design delightful things.</div>",
+  "descriptionPlain": "Design delightful things.", "lists": []}
+]

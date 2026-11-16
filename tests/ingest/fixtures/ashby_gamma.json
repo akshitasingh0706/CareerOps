@@ -1,0 +1,14 @@
+{"apiVersion": "1", "jobs": [
+ {"id": "9f8e7d6c-0001", "title": "Sr. ML Engineer", "location": "London, UK", "isRemote": false,
+  "isListed": true, "publishedAt": "2026-10-05T12:00:00.000+00:00",
+  "jobUrl": "https://jobs.ashbyhq.com/gamma/9f8e7d6c-0001",
+  "descriptionHtml": "<p>Train and serve models.</p><p>Requires <b>PyTorch</b>.</p>",
+  "descriptionPlain": "Train and serve models.\nRequires PyTorch.",
+  "compensation": {"summaryComponents": [{"compensationType": "Salary", "currencyCode": "GBP", "minValue": 120000, "maxValue": 150000}]}},
+ {"id": "9f8e7d6c-0002", "title": "Engineering Manager", "location": "Remote - Europe", "isRemote": true,
+  "isListed": true, "publishedAt": "2026-10-06T12:00:00.000+00:00",
+  "jobUrl": "https://jobs.ashbyhq.com/gamma/9f8e7d6c-0002",
+  "descriptionHtml": "<p>Lead a team of eight engineers.</p>"},
+ {"id": "9f8e7d6c-0003", "title": "Hidden Role", "location": "Paris", "isListed": false,
+  "jobUrl": "https://jobs.ashbyhq.com/gamma/9f8e7d6c-0003", "descriptionHtml": "<p>Hidden.</p>"}
+]}
